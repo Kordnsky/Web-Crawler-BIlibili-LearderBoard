@@ -11,3 +11,8 @@ Project Overview:
 3: Analysis
 4: Conclusion
 ```
+Project Objective:  
+```
+Get the total number of users.
+Analyze Sex ratio， Age distribution， Registration time
+```
