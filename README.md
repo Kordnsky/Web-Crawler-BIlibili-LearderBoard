@@ -18,6 +18,6 @@ Project Overview:
 Project Objective:  
 ---
 ```
-·Get the all the top ranking videos of Bilibili.
+·Get the informations of all the top ranking videos in Bilibili.
 ·Classify them into DayRank, MonthRank and MonthRank
 ```
