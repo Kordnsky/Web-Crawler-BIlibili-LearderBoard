@@ -35,7 +35,7 @@ Then crate the headers for the crawler to camouflage the User-Agent:
   ```
   Then start the crawler and a total of 152 LeaderBoards were crawled down (See "textfiles.zip").  
   After all that use "matplotlib" to draw the Score/Rank Chart of Monthly GeneralRank, Monthly OriginalRank and Monthly RookieRank. (See "ScoreAndRankPlot.png"):  
-  ![image](https://github.com/ordnsky/Web-Crawler-BIlibili-LearderBoard/raw/master/ScoreAndRankPlot.png)
+  ![image](https://github.com/Kordnsky/Web-Crawler-BIlibili-LearderBoard/raw/master/ScoreAndRankPlot.png)  
   We now know from the figure that:
 ```
 1.Higher Rank in LeaderBoard dose not guarantee more Views 
