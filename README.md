@@ -26,10 +26,12 @@ Project Objective:
 Conclusion:  
 ---
   First analyze the HTML code of Bilibili LeaderBoard Page, I picked out the useful classification tag(e.g: 0 to "ALL") and crate several dictionaries, each key corresponds to a LeaderBoard of Bilibili.  
-  Then crate the headers for the crawler to camouflage the User-Agent.  
+  
+Then crate the headers for the crawler to camouflage the User-Agent:  
   ```
   Referer: https://www.bilibili.com/ranking/all/5/0/3
-  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+              Chrome/71.0.3578.98 Safari/537.36
   ```
   Then start the crawler and a total of 152 LeaderBoards were crawled down (See "textfiles.zip").  
   After all that use "matplotlib" to draw the Score/Rank Chart of Monthly GeneralRank, Monthly OriginalRank and Monthly RookieRank. (See "ScoreAndRankPlot.png").  
