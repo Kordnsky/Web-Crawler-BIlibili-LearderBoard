@@ -23,3 +23,14 @@ Project Objective:
 ·Draw the Score/Rank Chart of Monthly GeneralRank, Monthly OriginalRank and Monthly RookieRank
 
 ```
+Conclusion:  
+---
+First analyze the HTML code of Bilibili LeaderBoard Page, I picked out the useful classification tag(e.g: 0 to "ALL") and crate several dictionaries, each key corresponds to a LeaderBoard of Bilibili
+Then crate the headers for the crawler to camouflage the User-Agent.
+Then start the crawler and a total of 152 LeaderBoards were crawled down.
+After all that use "matplotlib" to draw the Score/Rank Chart of Monthly GeneralRank, Monthly OriginalRank and Monthly RookieRank.(
+We now know from the figure that:
+```
+1.Higher Rank in LeaderBoard dose not guarantee more Views 
+2.Rookie Uploaders' videos usually cannot compete with other's in Views
+```
